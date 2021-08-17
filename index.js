@@ -1,5 +1,8 @@
-function hevaShadow(options){
-    const elements = document.getElementById("hevaShadow");
+// Code by Phat's Dev
+
+const elements = document.getElementById("hevaShadow");
+
+function hevaShadow(options)
     if(options.shadowType === 'hard')
         options.shadowType = '0px';
     else
@@ -10,4 +13,14 @@ function hevaShadow(options){
             elements.style.padding = '1rem';
     });
 
-};
+
+function hevaButton()
+    let button = document.createElement('a')
+    button.setAttribute('class', 'button');
+    function setPadding()
+        const padding = '';
+        button.style.padding = padding;
+
+    function setPadding()
+        const background = '';
+        button.style.background = '' ;

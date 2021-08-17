@@ -1,0 +1,22 @@
+{
+  "name": "hevaly",
+  "version": "1.0.0",
+  "description": "It helps programmers to code the interface more convenient ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuthangphat/hevaly.git"
+  },
+  "keywords": [
+    "hevaly"
+  ],
+  "author": "Phat dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuthangphat/hevaly/issues"
+  },
+  "homepage": "https://github.com/tuthangphat/hevaly#readme"
+}
