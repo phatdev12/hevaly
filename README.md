@@ -1,4 +1,4 @@
-# Hevaly packages v1.0 BETA
+# Hevaly packages v1.1.3 BETA
 
 ### What is it ?
 
@@ -6,16 +6,28 @@ It helps programmers to code the interface more convenient
 
 # Installation
 
-`npm install hevaly --save`
+`npm install hevaly`
 
 Example:
 
-```
-import { hevaShadow } from 'hevaly';
+Html: 
 
-hevaShadow({
-    shadowType: 'soft',
-    padding: false
+```html
+<script type="module" src="./index.js"></script>
+```
+
+Javascript:
+
+```javascript
+import { hevaly } from './node_modules/hevaly/index';
+
+const pad = '1rem 2rem'
+const a = new hevaly({
+    class: ".hevaShadow",
+    shadow_type: '15px 15px 15px rgb(0,0,0,0.12)',
+    padding: pad,
+    margin: '1rem 1rem',
+    background: "#000000"
 });
 
 ```
@@ -24,7 +36,9 @@ hevaShadow({
 
 In this version we just support 2 options, both of which are optional
 
-* *shadowType* - `hard / soft` (Defauts to soft)
-* *padding* - `boolean` (Defauts to false)
+* *shadow_type*
+* *padding*
+* *margin*
+* *background*
 
 # Good Luck

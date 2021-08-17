@@ -1,26 +1,28 @@
 // Code by Phat's Dev
 
-const elements = document.getElementById("hevaShadow");
+function hevaly(options){
+    options.class == '' || ""
+    options.padding == '' || ""
+    options.margin == '' || ""
+    options.background == '' || ""
+    options.shadow_type == '' || ""
 
-function hevaShadow(options)
-    if(options.shadowType === 'hard')
-        options.shadowType = '0px';
-    else
-        options.shadowType = '15px';
-    elements.array.forEach(element => {
-        elements.style.boxShadow = `10px 10px ${options.shadowType} 1px rbg(0,0,0,0.12)`
-        if(options.padding)
-            elements.style.padding = '1rem';
+    const elements = document.querySelectorAll(options.class);
+    elements.forEach(element => {
+        if(options.shadow_type == options.shadow_type){
+            element.style.boxShadow = options.shadow_type;
+        }
+        if(options.padding === options.padding){
+            element.style.padding = options.padding;
+        }
+        if(options.margin === options.margin){
+            element.style.margin = options.margin;
+        }
+        if(options.background === options.background){
+            element.style.background = options.background;
+        }
     });
+}
 
 
-function hevaButton()
-    let button = document.createElement('a')
-    button.setAttribute('class', 'button');
-    function setPadding()
-        const padding = '';
-        button.style.padding = padding;
-
-    function setPadding()
-        const background = '';
-        button.style.background = '' ;
+module.exports.hevaly = hevaly;
