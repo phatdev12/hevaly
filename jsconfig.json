@@ -1,0 +1,15 @@
+{
+    "hevaly": {
+        "class": "none",
+        "padding": "none",
+        "margin": "none",
+        "background": "none",
+        "shadow_type": "none",
+        "borderRadius": "none",
+    },
+    "hevalyButton": {
+        "Class": "none",
+        "ID": "none",
+        "Style": true
+    }
+}

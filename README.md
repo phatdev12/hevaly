@@ -1,4 +1,4 @@
-# Hevaly packages v1.1.3 BETA
+# Hevaly packages v1.1.8 BETA
 
 ### What is it ?
 
@@ -19,7 +19,7 @@ Html:
 Javascript:
 
 ```javascript
-import { hevaly } from './node_modules/hevaly/index';
+import { hevaly } from 'hevaly';
 
 const pad = '1rem 2rem'
 const a = new hevaly({

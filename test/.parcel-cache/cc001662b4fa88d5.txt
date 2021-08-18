@@ -1,0 +1,11 @@
+10
+23D:\app\hevaly\test\dist132737446994793175 1
+29D:\app\hevaly\test\index.html132737444748960463 0
+27D:\app\hevaly\test\index.js132737444764642673 0
+31D:\app\hevaly\test\package.json132737368398949907 0
+41D:\app\hevaly\test\dist\index.36efa996.js132737446994553327 0
+46D:\app\hevaly\test\dist\index.8e0184e2.css.map132737446994683245 0
+28D:\app\hevaly\test\style.css132737373192537809 0
+42D:\app\hevaly\test\dist\index.8e0184e2.css132737446994303484 0
+45D:\app\hevaly\test\dist\index.36efa996.js.map132737446994773190 0
+34D:\app\hevaly\test\dist\index.html132737446994163574 0
